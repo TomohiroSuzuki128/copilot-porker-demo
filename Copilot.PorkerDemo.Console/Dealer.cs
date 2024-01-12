@@ -48,7 +48,7 @@ class Dealer
     }
 
     // IsHeld が false のカードをチェンジする
-    public void ChangeCards(List<Player> players)
+    public void SwapUnheldCards(List<Player> players)
     {
         foreach (Player player in players)
         {

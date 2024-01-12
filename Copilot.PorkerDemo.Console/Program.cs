@@ -33,7 +33,7 @@ Console.WriteLine("カードをチェンジします。Enterを押して下さ�
 Console.ReadLine();
 
 // player1 の カードをチェンジする
-dealer.ChangeCards(new List<Player> { player1 });
+dealer.SwapUnheldCards(new List<Player> { player1 });
 
 // player1 の手札を表示
 player1.ShowHand();
